@@ -50,8 +50,8 @@ Based on result of the simulation and current projected annual income from Plaid
 
 Table 2. 10th, 50th and 90th Quantiles for $1 and $20,000 Initial Investment in the 60/40 Stock-to-Bond Portfolio
 
-Initial Investment  | 10th Quantile  | 50th Quantile | 90th Quantile
-------------------- | -------------- | --------------  -----------
+Initial Investment  | 10th Quantile  | 50th Quantile  | 90th Quantile
+------------------- | -------------- | -------------- |  -----------
 Investment $1           |   $58.27      |   $96.43      |   $162.94
 Investment $20,000              | $1,165,337,58 | $1,928,501.40 | $3,258,783.77
 
@@ -72,8 +72,8 @@ Investment $20,000              | $1,165,337,58 | $1,928,501.40 | $3,258,783.77
 
 Table 3. Daily Cumulative Returns - Median with Boundaries of 90% Confidence Interval on 60/40 Conservative Portfolio
 
-Day       | CI_90_Lower |  Median   | CI_90_Upper
----------  ------------- ----------- ------------
+Day       | CI_90_Lower |  Median    | CI_90_Upper
+--------- |-------------|----------- | ------------
 Day 7556     | 192.637704  | 96.021101 | 48.734163
 Day 7557        | 193.685514  | 96.519774 | 48.708338
 Day 7558           | 192.262019  | 96.769035 | 48.923027
@@ -116,7 +116,7 @@ After rerunning 500 monte-carlo simulations for cumulative daily returns on the 
 Table 4. Daily Cumulative Returns - Median with Boundaries of 90% Confidence Interval on 90/10 Aggressive Portfolio
 
 Day      |    CI_90_Lower  |       Median     |   CI_90_Upper
----------  ----------------- ------------------  -------------
+---------| --------------- | ---------------- | -------------
 Day 1256     | 1.698543          |  2.527966      | 3.923702
 Day 1257          | 1.700851           |  2.531704    |  3.934448
 Day 1258              | 1.704032           |  2.531314     | 3.933907
