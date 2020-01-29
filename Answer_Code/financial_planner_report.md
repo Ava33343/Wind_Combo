@@ -32,10 +32,11 @@ Comparing to cumulative returns by the end of year 20, as illustrated in Figure 
 Differences in the 5th and 95th quantiles between 20 and 30-year simulated returns are 7 and 31, respectively. Differences in the ranges of the middle 90% of simulated returns are 142 and 118, respectively, at the end of 30 years and 20 years. See Table 1 below for details:
 
 Table 1. 90% Confidence Intervals for Simulated Portfolio Returns at the end of 30 and 20 years
+
 Simulated Returns | 30-year | 20-years 
 ----------------- | ------- | ---------
-5th Quantile      |   49.2  |   41.8
-95th Quantile     |   190.8 |   159.4
+5th Quantile        |   49.2  |   41.8
+95th Quantile         |   190.8 |   159.4
 
 The difference in simulated returns widens with increase in years. The gap between higher percentiles grow. Those can be explained by compounding interests. 
 
@@ -48,10 +49,11 @@ Based on result of the simulation and current projected annual income from Plaid
 2. According to results from the Monte Carlo simulation, an initial investment of $20,000 in the portfolio over the next 30 years, i.e. 7,560 trading days, will have a 10% chance that it ends up at or below $1,165,337.58, a 50% chance for valuing at or above $1,928,501.40, and a 90% of chance ending up over $3,258,783.77. In other words, the expected cumulative returns for $1 investment at the end of 30 years at 10th, 50th and 90th percentiles are $58.27, $96.43 and $162.94, respectively. Table 2 provides a comparison. 
 
 Table 2. 10th, 50% and 90th Quantiles for $1 and $20,000 Initial Investment in the 60/40 Stock-to-Bond Portfolio
+
 Initial Investment| 10th Quantile | 50th Quantile | 90th Quantile
 ----------------- | ------------- | --------------  -----------
-        $1        |   $58.27      |   $96.43      |   $162.94
-     $20,000      | $1,165,337,58 | $1,928,501.40 | $3,258,783.77
+        $1          |   $58.27      |   $96.43      |   $162.94
+     $20,000          | $1,165,337,58 | $1,928,501.40 | $3,258,783.77
 
 3. At the end of 30 years, there is a 90% chance that the 4% withdrawal of $46,613.50 from the retirement portfolio is greater than the projected annual income of $6,054.80. The annual projected income was calculated from the first monthly income stream based on 2% annual inflation rate.
 
@@ -69,13 +71,14 @@ Initial Investment| 10th Quantile | 50th Quantile | 90th Quantile
 6. Figure 6 traces the median and 90% confidence intervals on cumulative daily returns for the 500 simulations on a daily basis for the next 30 years. Table 3 shows the median, upper and lower bounds of the 90% confidence interals on cumulative returns of the last 5 trading days:
 
 Table 3. Daily Cumulative Returns - Median with Boundaries of 90% Confidence Interval on 60/40 Conservative Portfolio
+
 Day  | CI_90_Lower |  Median   | CI_90_Upper
 ----   -----------   ---------   -----------
-7556 | 192.637704  | 96.021101 | 48.734163
-7557 | 193.685514  | 96.519774 | 48.708338
-7558 | 192.262019  | 96.769035 | 48.923027
-7559 | 191.639635  | 96.438293 | 49.166638
-7560 | 190.803836  | 96.425070 | 49.185350
+7556   | 192.637704  | 96.021101 | 48.734163
+7557     | 193.685514  | 96.519774 | 48.708338
+7558       | 192.262019  | 96.769035 | 48.923027
+7559         | 191.639635  | 96.438293 | 49.166638
+7560           | 190.803836  | 96.425070 | 49.185350
 
 7. Goals for Retirement Budgeting with Inflation:
 
@@ -111,13 +114,14 @@ After rerunning 500 monte-carlo simulations for cumulative daily returns on the 
 ![Figure 9](https://github.com/Ava33343/API-homework/blob/master/Answer_Code/Images/Fig_9.png)
 
 Table 4. Daily Cumulative Returns - Median with Boundaries of 90% Confidence Interval on 90/10 Aggressive Portfolio
+
 Day  | CI_90_Lower |  Median   | CI_90_Upper
 ----   ------------  ----------  -----------
-1256 | 1.698543    |  2.527966 | 3.923702
-1257 | 1.700851    |  2.531704 | 3.934448
-1258 | 1.704032    |  2.531314 | 3.933907
-1259 |1.702606     |  2.545247 | 3.909562
-1260 |1.708613     |  2.559520 | 3.920164
+1256   | 1.698543    |  2.527966 | 3.923702
+1257     | 1.700851    |  2.531704 | 3.934448
+1258       | 1.704032    |  2.531314 | 3.933907
+1259         |1.702606     |  2.545247 | 3.909562
+1260           |1.708613     |  2.559520 | 3.920164
 
 The horizontal red and blue lines in Figure 10 describes how long it takes for the portfolio to double and triple the initial investment. Those happen when the horizontal lines cross the curved trajectories that trace the median, 5th quantile and 95th quantile of simulated daily cumulative returns over the next five years. 
 
