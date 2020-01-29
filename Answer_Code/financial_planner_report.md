@@ -159,15 +159,15 @@ At last but not at least, according to Plaid account analysis, extra savings can
 
 ### References:
 
-> UC Bootcamp Gitlab Repository
-> https://guides.github.com/features/mastering-markdown/
-> https://github.com/willwillis/python-api-homework/blob/master/account_summary.ipynb
-> https://stackoverflow.com/questions/19851005/rename-pandas-dataframe-index
-> https://plot.ly/python/pie-charts/
-> https://github.com/willwillis/python-api-homework/blob/master/portfolio_planner.ipynb
-> https://matplotlib.org/gallery/lines_bars_and_markers/vline_hline_demo.html
-> https://matplotlib.org/gallery/text_labels_and_annotations/usetex_baseline_test.html#sphx-glr-gallery-text-labels-and-annotations-usetex-* baseline-test-py
-> https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.quantile.html
-> https://matplotlib.org/api/_as_gen/matplotlib.axes.Axes.axhline.html
-> https://www.marketwatch.com/investing/fund/spy/profile
+> * UC Bootcamp Gitlab Repository
+> * https://guides.github.com/features/mastering-markdown/
+> * https://github.com/willwillis/python-api-homework/blob/master/account_summary.ipynb
+> * https://stackoverflow.com/questions/19851005/rename-pandas-dataframe-index
+> * https://plot.ly/python/pie-charts/
+> * https://github.com/willwillis/python-api-homework/blob/master/portfolio_planner.ipynb
+> * https://matplotlib.org/gallery/lines_bars_and_markers/vline_hline_demo.html
+> * https://matplotlib.org/gallery/text_labels_and_annotations/usetex_baseline_test.html#sphx-glr-gallery-text-labels-and-annotations-usetex-* baseline-test-py
+> * https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.quantile.html
+> * https://matplotlib.org/api/_as_gen/matplotlib.axes.Axes.axhline.html
+> * https://www.marketwatch.com/investing/fund/spy/profile
 https://www.ishares.com/us/products/239458/AGG?cid=ppc:ishares_us:google:tickers-priorities&gclid=CjwKCAiA1L_xBRA2EiwAgcLKA2ZdiUny6j9jRLfp6Xf-oKc36CUrhTpGH2mmXW9GiCVfw19BS3v8MBoCy3wQAvD_BwE&gclsrc=aw.ds
