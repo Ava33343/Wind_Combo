@@ -145,10 +145,17 @@ After raising the initial investment to $60,000, one and a half times the origin
 
 In order to retire at the end of the fifth year, with 2% inflation, we need $70,000 to grow up to $167,124.71 by the end of the 5th year, i.e. in 1,260 trading days. It is a more reasonable investment strategy as there is 60% chance that the portfolio return grows up to the sufficient amount. Moreover, retirement is possible following the 750th trading day at a possibility of 5%, In other words, 5% of the simulated portfolios generate enough returns for retirement by the end of the 3rd year.
 
+![Figure 13](https://github.com/Ava33343/API-homework/blob/master/Answer_Code/Images/Fig_13.png)
+
 More specifically, with $70,000 initial investment, based on monte-carlo simulation, there is a 5% chance thatthe portfolio return allows retirement at the end of year 3, and 50% of the chance that the portfolio will return enough for retirement by year 5, given 2% inflation, a 90/10 stock-to-bond ratio and withdrawal rate at 4% by the end of the fifth year. In general, an initial investment of over $70,000 would have a greater chance to generate sufficient portfolio value for retirement.
 
 An initial contribution of over $98,000, 4.9 times the original initial investmnet of $20,000, provides a safer retirement within the next five years for the more agressive, 90/10 stock-to-bond portfolio. The retirement portfolio has a greater chance of generating sufficient returns for 4% withdrawal to match projected annual income. Figure 14 suggests that 95% of the simulated portfolios return more than the required amount at the end of the three-year window. The horizontal red line representing required returns meets the lower bound of the 90% confidence interval, exactly at the end of Year 3. 
 
+![Figure 14](https://github.com/Ava33343/API-homework/blob/master/Answer_Code/Images/Fig_14.png)
+
+At last but not at least, according to Plaid account analysis, extra savings can come from spending on Transfer category that sumed up to $20,537.34, more than 60% of total spending in the past 90 days. 
+
+![Figure i](https://github.com/Ava33343/API-homework/blob/master/Answer_Code/Images/Fig_i.png)
 
 ### References:
 
