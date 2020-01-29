@@ -29,14 +29,22 @@ Comparing to cumulative returns by the end of year 20, as illustrated in Figure 
 
 ![Figure 5](https://github.com/Ava33343/API-homework/blob/master/Answer_Code/Images/Fig_5.png)
 
-Differences in the 5th and 95th quantiles between 20 and 30-year simulated returns are 7 and 31, respectively. Differences in the ranges of the middle 90% of simulated returns are 142 and 118, respectively, at the end of 30 years and 20 years. See Table 1 below for details:
+Differences in the 5th and 95th quantiles between 20 and 30-year simulated returns are 43 and 175, respectively.Differences in the ranges of the middle 90% of simulated returns are 156 and 24, respectively, at the end of 30 years and 20 years.
 
-Table 1. 90% Confidence Intervals for Simulated Portfolio Returns at the end of 30 and 20 years
+Differences in the 5th and 95th quantiles between 29 and 30-year simulated returns are 9 and 32, respectively.Differences in the ranges of the middle 90% of simulated returns are 156 and 133, respectively, at the end of 30 years and 29 years. 
 
-Simulated Returns | 30-year | 20-years 
------------------ | ------- | ---------
-5th Quantile        |   49.2  |   41.8
-95th Quantile         |   190.8 |   159.4
+![Figure 5i](https://github.com/Ava33343/API-homework/blob/master/Answer_Code/Images/Fig_5i.png)
+
+![Figure 5ii](https://github.com/Ava33343/API-homework/blob/master/Answer_Code/Images/Fig_5ii.png)
+
+See Table 1 below for details:
+
+Table 1. 90% Confidence Intervals for Simulated Portfolio Returns at the end of the 30th, 29th and 20th year
+
+Simulated Returns | 30-year | 29-year  |  20-year
+----------------- | ------- | ---------|---------------
+5th Quantile        |   49.2  |   41.8    |  13.6 
+95th Quantile         |   190.8 |   159.4   |   37.5
 
 The difference in simulated returns widens with increase in years. The gap between higher percentiles grow. Those can be explained by compounding interests. 
 

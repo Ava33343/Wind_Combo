@@ -3,8 +3,8 @@
 ## A retirement portfolio for Harold
 _**1. The stock market is in an upswing in the past year**_
 _**2. Harold is inclined to more weight on stocks**_
-_**3. S&P 500 index, SPY, that traces the market is used as the stock component**_
-_**4. iShares Core US Aggregate Bond ETF, AGG, by BlackRock is used as the stock component**_
+_**3. S&P 500 index, [SPY](https://www.marketwatch.com/investing/fund/spy/profile), that traces the market is used as the stock component**_
+_**4. iShares Core US Aggregate Bond ETF, [AGG](https://www.ishares.com/us/products/239458/ishares-core-total-us-bond-market-etf), by BlackRock is used as the stock component**_
 _**5. Data is fetched from IEX Finance over the last 365 days including 252 trading days**_
 
 ### A portfolio with stock-to-bond Ratio of 60/40 
@@ -29,14 +29,22 @@ Comparing to cumulative returns by the end of year 20, as illustrated in Figure 
 
 ![Figure 5](https://github.com/Ava33343/API-homework/blob/master/Answer_Code/Images/Fig_5.png)
 
-Differences in the 5th and 95th quantiles between 20 and 30-year simulated returns are 7 and 31, respectively. Differences in the ranges of the middle 90% of simulated returns are 142 and 118, respectively, at the end of 30 years and 20 years. See Table 1 below for details:
+Differences in the 5th and 95th quantiles between 20 and 30-year simulated returns are 43 and 175, respectively.Differences in the ranges of the middle 90% of simulated returns are 156 and 24, respectively, at the end of 30 years and 20 years.
 
-Table 1. 90% Confidence Intervals for Simulated Portfolio Returns at the end of 30 and 20 years
+Differences in the 5th and 95th quantiles between 29 and 30-year simulated returns are 9 and 32, respectively.Differences in the ranges of the middle 90% of simulated returns are 156 and 133, respectively, at the end of 30 years and 29 years. 
 
-Simulated Returns | 30-year | 20-years 
------------------ | ------- | ---------
-5th Quantile        |   49.2  |   41.8
-95th Quantile         |   190.8 |   159.4
+![Figure 5i](https://github.com/Ava33343/API-homework/blob/master/Answer_Code/Images/Fig_5i.png)
+
+![Figure 5ii](https://github.com/Ava33343/API-homework/blob/master/Answer_Code/Images/Fig_5ii.png)
+
+See Table 1 below for details:
+
+Table 1. 90% Confidence Intervals for Simulated Portfolio Returns at the end of the 30th, 29th and 20th year
+
+Simulated Returns | 30-year | 29-year  |  20-year
+----------------- | ------- | ---------|---------------
+5th Quantile        |   49.2  |   41.8    |  13.6 
+95th Quantile         |   190.8 |   159.4   |   37.5
 
 The difference in simulated returns widens with increase in years. The gap between higher percentiles grow. Those can be explained by compounding interests. 
 
@@ -159,19 +167,15 @@ At last but not at least, according to Plaid account analysis, extra savings can
 
 ### References:
 
-#### Account Summary:
-> UC Bootcamp Gitlab Repository
-> https://plot.ly/python/pie-charts/
-> https://github.com/willwillis/python-api-homework/blob/master/account_summary.ipynb
-> https://stackoverflow.com/questions/19851005/rename-pandas-dataframe-index
-
-
-#### Portfolio Planner:
-> UC Bootcamp Gitlab Repository
-> https://guides.github.com/features/mastering-markdown/
-> https://plot.ly/python/pie-charts/
-> https://github.com/willwillis/python-api-homework/blob/master/portfolio_planner.ipynb
-> https://matplotlib.org/gallery/lines_bars_and_markers/vline_hline_demo.html
-> https://matplotlib.org/gallery/text_labels_and_annotations/usetex_baseline_test.html#sphx-glr-gallery-text-labels-and-annotations-usetex-* baseline-test-py
-> https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.quantile.html
-> https://matplotlib.org/api/_as_gen/matplotlib.axes.Axes.axhline.html
+> * UC Bootcamp Gitlab Repository
+> * https://guides.github.com/features/mastering-markdown/
+> * https://github.com/willwillis/python-api-homework/blob/master/account_summary.ipynb
+> * https://stackoverflow.com/questions/19851005/rename-pandas-dataframe-index
+> * https://plot.ly/python/pie-charts/
+> * https://github.com/willwillis/python-api-homework/blob/master/portfolio_planner.ipynb
+> * https://matplotlib.org/gallery/lines_bars_and_markers/vline_hline_demo.html
+> * https://matplotlib.org/gallery/text_labels_and_annotations/usetex_baseline_test.html#sphx-glr-gallery-text-labels-and-annotations-usetex-* baseline-test-py
+> * https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.quantile.html
+> * https://matplotlib.org/api/_as_gen/matplotlib.axes.Axes.axhline.html
+> * https://www.marketwatch.com/investing/fund/spy/profile
+https://www.ishares.com/us/products/239458/AGG?cid=ppc:ishares_us:google:tickers-priorities&gclid=CjwKCAiA1L_xBRA2EiwAgcLKA2ZdiUny6j9jRLfp6Xf-oKc36CUrhTpGH2mmXW9GiCVfw19BS3v8MBoCy3wQAvD_BwE&gclsrc=aw.ds
