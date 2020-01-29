@@ -159,9 +159,10 @@ At last but not at least, according to Plaid account analysis, extra savings can
 
 ### References:
 
-#### Portfolio Planner:
 > UC Bootcamp Gitlab Repository
 > https://guides.github.com/features/mastering-markdown/
+> https://github.com/willwillis/python-api-homework/blob/master/account_summary.ipynb
+> https://stackoverflow.com/questions/19851005/rename-pandas-dataframe-index
 > https://plot.ly/python/pie-charts/
 > https://github.com/willwillis/python-api-homework/blob/master/portfolio_planner.ipynb
 > https://matplotlib.org/gallery/lines_bars_and_markers/vline_hline_demo.html
