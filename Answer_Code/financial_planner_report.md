@@ -3,8 +3,8 @@
 ## A retirement portfolio for Harold
 _**1. The stock market is in an upswing in the past year**_
 _**2. Harold is inclined to more weight on stocks**_
-_**3. S&P 500 index, SPY, that traces the market is used as the stock component**_
-_**4. iShares Core US Aggregate Bond ETF, AGG, by BlackRock is used as the stock component**_
+_**3. S&P 500 index, [SPY](https://www.marketwatch.com/investing/fund/spy/profile), that traces the market is used as the stock component**_
+_**4. iShares Core US Aggregate Bond ETF, [AGG](https://www.ishares.com/us/products/239458/ishares-core-total-us-bond-market-etf), by BlackRock is used as the stock component**_
 _**5. Data is fetched from IEX Finance over the last 365 days including 252 trading days**_
 
 ### A portfolio with stock-to-bond Ratio of 60/40 
@@ -169,3 +169,5 @@ At last but not at least, according to Plaid account analysis, extra savings can
 > https://matplotlib.org/gallery/text_labels_and_annotations/usetex_baseline_test.html#sphx-glr-gallery-text-labels-and-annotations-usetex-* baseline-test-py
 > https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.quantile.html
 > https://matplotlib.org/api/_as_gen/matplotlib.axes.Axes.axhline.html
+> https://www.marketwatch.com/investing/fund/spy/profile
+https://www.ishares.com/us/products/239458/AGG?cid=ppc:ishares_us:google:tickers-priorities&gclid=CjwKCAiA1L_xBRA2EiwAgcLKA2ZdiUny6j9jRLfp6Xf-oKc36CUrhTpGH2mmXW9GiCVfw19BS3v8MBoCy3wQAvD_BwE&gclsrc=aw.ds
