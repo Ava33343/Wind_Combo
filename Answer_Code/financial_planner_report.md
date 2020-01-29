@@ -1,11 +1,11 @@
 # Financial Planner Report
 
 ## A retirement portfolio for Harold
-**_ 1. The stock market is in an upswing in the past year_**
-**_ 2. Harold is inclined to more weight on stocks _**
-**_3. S&P 500 index, SPY, that traces the market is used as the stock component _**
-**_ 4. iShares Core US Aggregate Bond ETF, AGG, by BlackRock is used as the stock component _**
-**_ 5. Data is fetched from IEX Finance over the last 365 days including 252 trading days _**
+** 1. The stock market is in an upswing in the past year**
+** 2. Harold is inclined to more weight on stocks **
+** 3. S&P 500 index, SPY, that traces the market is used as the stock component **
+** 4. iShares Core US Aggregate Bond ETF, AGG, by BlackRock is used as the stock component **
+** 5. Data is fetched from IEX Finance over the last 365 days including 252 trading days **
 
 ### A portfolio with stock-to-bond Ratio of 60/40 
 
@@ -97,7 +97,7 @@ Day 7560                 | 190.803836  | 96.425070 | 49.185350
 ### Early Retirement Challenge 
 #### Goal: Retire in the next five years
 
-**_ More specifically: The value in the portfolio needs to be at least $167,124.71 by the end of the next five years.At 2% annual inflation rate, the projected annual income by the end of year 5 is expected to be $6,684.99.A cumulative return of 8.36 is required for retirement for a withdrawal rate of 4% from the portfolio _**
+** More specifically: The value in the portfolio needs to be at least $167,124.71 by the end of the next five years.At 2% annual inflation rate, the projected annual income by the end of year 5 is expected to be $6,684.99.A cumulative return of 8.36 is required for retirement for a withdrawal rate of 4% from the portfolio **
 
 Based Figure 7, Median and 90% Confidence Interval Trajectories on 500 Simulations of Cumulative Daily Portfolio Return Over the Next 30 Years, we see that a 60/40 stock/bond portfolio does not return enough for retirement in five years. The required returns based on 2% inflation, as shown by the red horizontal lines, does not cross any of the portfolio returns curve prior to 2900 trading days, which is the 11th year following the initial deposit of $20,000.
 
@@ -131,7 +131,7 @@ Since the required cumulative rate of return is 8.36 for retirement in the next 
 
 Earliest year of doubling value in the 90/10 stock-to-bond retirement portfolio is year 2. 50% chance for doubling value in the 90/10 stock-to-bond retirement portfolio occurs in year 4. Chance of tripling value in the 90/10 stock-to-bond retirement portfolio is year 4, with a 5% probability.
 
-**_ For retirement by the end of the fifth year, we need $40,000 to grow up to $167,124.71 by the end of the 5th year, i.e. in 1,260 trading days._**
+** For retirement by the end of the fifth year, we need $40,000 to grow up to $167,124.71 by the end of the 5th year, i.e. in 1,260 trading days.**
 
 In Figure 11, we see that our target return of $167,121,71 will not be met even by the top 5% of portfolio returns, indicated . by the 95th-quantile trajectory. Therefore, we need to increase initial contribution to reach our five-year retirement goal. 
 
