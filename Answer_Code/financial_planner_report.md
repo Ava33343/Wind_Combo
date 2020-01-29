@@ -15,9 +15,19 @@ The assumption here is that the stock and bond market returns over the next 30 y
 
 Over a thirty-year time frame, according to Figure 1, from the 500 simulations, the cumulative returns on $1 initial investment ranges from $30 to $290 at the time of retirement. Figure 2 shows the frequencies of simulated portfolio returns at the end of 30 years while the probabilty of returns on simulated portfolios are displayed in Figure 3. 
 
+![Figure 1](https://github.com/Ava33343/API-homework/blob/master/Answer_Code/Images/Fig_1.png)
+
+![Figure 2](https://github.com/Ava33343/API-homework/blob/master/Answer_Code/Images/Fig_2.png)
+
+![Figure 3](https://github.com/Ava33343/API-homework/blob/master/Answer_Code/Images/Fig_3.png)
+
 A 90% confidence interval, as suggested by the two vertical red lines, states that 90% of the portfolios would generate returns of between $49.2 and $190.8 on a dollar of initial investment. That is approximately 50 times and 191 times the initial investment, respectively. 
 
 Comparing to cumulative returns by the end of year 20, as illustrated in Figure 4 and Figure 5, 90% of the simulated portfolios generate returns that are between 41.8 and 159.4 folds of the original investment. 
+
+![Figure 4](https://github.com/Ava33343/API-homework/blob/master/Answer_Code/Images/Fig_4.png)
+
+![Figure 5](https://github.com/Ava33343/API-homework/blob/master/Answer_Code/Images/Fig_5.png)
 
 Differences in the 5th and 95th quantiles between 20 and 30-year simulated returns are 7 and 31, respectively. Differences in the ranges of the middle 90% of simulated returns are 142 and 118, respectively, at the end of 30 years and 20 years. See Table 1 below for details:
 
@@ -75,6 +85,8 @@ Day  | CI_90_Lower |  Median   | CI_90_Upper
 
 * In Figure 6, Median and 90% Confidence Interval Trajectories on 500 Simulations of Cumulative Daily Portfolio Return Over the Next 30 Years, the horizontal red line represent required cumulative return at the end of year 30 with no inflation. The blue one, on the other hand, suggests the cumulative return necessary for retirement in thirty years at a targeted inflation rate of 2%. 
 
+![Figure 6](https://github.com/Ava33343/API-homework/blob/master/Answer_Code/Images/Fig_6.png)
+
     * According to Figure 6, the earliest day of retirement could take place around 2,700 trading days. In other words, after the 11th year, provided that the inflation rate is 0. By that day, only 5% of the portfolio returns accumulates just enough to retire and provide withdrawal of 4% in the amount comparable to current annual income. It is shown as the point where the horizontal red line crosses the light blue curve representing 95th percentile of simulated portfolio returns.
 
     * Based on 2% inflation and similar rationale, a reasonable year of retirement is 17th year for over 50% of the simulated portfolio returns over the required amount for the 4% withdrawal to match projected annual income. Retiring after the 21st year would be ideal because by then there is 95% chance that the portfolio accumulates enough value for retirement.
@@ -86,11 +98,17 @@ _* More specifically: The value in the portfolio needs to be at least $167,124.7
 
 Based Figure 7, Median and 90% Confidence Interval Trajectories on 500 Simulations of Cumulative Daily Portfolio Return Over the Next 30 Years, we see that a 60/40 stock/bond portfolio does not return enough for retirement in five years. The required returns based on 2% inflation, as shown by the red horizontal lines, does not cross any of the portfolio returns curve prior to 2900 trading days, which is the 11th year following the initial deposit of $20,000.
 
+![Figure 7](https://github.com/Ava33343/API-homework/blob/master/Answer_Code/Images/Fig_7.png)
+
 Therefore, in order to retire early, we need a higher ratio of stocks to bonds and/or a greater amount of initial investment.
 
 #### Strategy 1: A portfolio with more risk - 90% stocks (SPY) and 10% bonds (AGG)
 
 After rerunning 500 monte-carlo simulations for cumulative daily returns on the more aggressive portfolio composed of 90% SPY and 10% AGG over the next five years, we see in Figure 8 that the trajectories are more spread out compared to the original, more conservative 60/40 retirement portfolio. Figure 9 traces the medians and two boundaries for 90% confidence intervals on cumulative daily returns in the five-year window. For the last five trading days, data are displayed in Table 4 below:
+
+![Figure 8](https://github.com/Ava33343/API-homework/blob/master/Answer_Code/Images/Fig_8.png)
+
+![Figure 9](https://github.com/Ava33343/API-homework/blob/master/Answer_Code/Images/Fig_9.png)
 
 Table 4. Daily Cumulative Returns - Median with Boundaries of 90% Confidence Interval on 90/10 Aggressive Portfolio
 Day  | CI_90_Lower |  Median   | CI_90_Upper
@@ -103,6 +121,8 @@ Day  | CI_90_Lower |  Median   | CI_90_Upper
 
 The horizontal red and blue lines in Figure 10 describes how long it takes for the portfolio to double and triple the initial investment. Those happen when the horizontal lines cross the curved trajectories that trace the median, 5th quantile and 95th quantile of simulated daily cumulative returns over the next five years. 
 
+![Figure 10](https://github.com/Ava33343/API-homework/blob/master/Answer_Code/Images/Fig_10.png)
+
 Since the required cumulative rate of return is 8.36 for retirement in the next five years, for an initial contribution of $20,000, and 13.71 for retirement in 30 years as previously specified, under 2% rate of inflation. According to Figure 8, we need to go more aggressive by doubling the initial investment. Figure 9 tells us that the portfolio returns double by 570 trading days with 5% probability, and a 50% chance of doubling by the 950th trading day. There is a 5% chance that the portfolio triples its value by 1000th trading days from the date of initial investment. As a result, the initial investment needs to be doubled to tripled for an adequate return to retire in five years.
 
 Earliest year of doubling value in the 90/10 stock-to-bond retirement portfolio is year 2. 50% chance for doubling value in the 90/10 stock-to-bond retirement portfolio occurs in year 4. Chance of tripling value in the 90/10 stock-to-bond retirement portfolio is year 4, with a 5% probability.
@@ -111,9 +131,13 @@ _* For retirement by the end of the fifth year, we need $40,000 to grow up to $1
 
 In Figure 11, we see that our target return of $167,121,71 will not be met even by the top 5% of portfolio returns, indicated . by the 95th-quantile trajectory. Therefore, we need to increase initial contribution to reach our five-year retirement goal. 
 
+![Figure 11](https://github.com/Ava33343/API-homework/blob/master/Answer_Code/Images/Fig_11.png)
+
 #### Strategy 2: Increase Initial Investment
 
 After raising the initial investment to $60,000, one and a half times the original deposit of $20,000, the dream of retiring in the next five years comes true, as described in Figure 12. With 2% inflation, we need portfolio returns to grow up to $167,124.71 in 1,260 trading days. There is a 5% chance to be able to retire at the end of 4th year, following the 900th trading day. Approximately 40% of the simulated returns suggest that it is possible for retirement at the end of five years.
+
+![Figure 12](https://github.com/Ava33343/API-homework/blob/master/Answer_Code/Images/Fig_12.png)
 
 In order to retire at the end of the fifth year, with 2% inflation, we need $70,000 to grow up to $167,124.71 by the end of the 5th year, i.e. in 1,260 trading days. It is a more reasonable investment strategy as there is 60% chance that the portfolio return grows up to the sufficient amount. Moreover, retirement is possible following the 750th trading day at a possibility of 5%, In other words, 5% of the simulated portfolios generate enough returns for retirement by the end of the 3rd year.
 
@@ -125,10 +149,11 @@ An initial contribution of over $98,000, 4.9 times the original initial investmn
 ### References:
 
 #### Portfolio Planner:
-* UC Bootcamp Gitlab Repository
-* https://plot.ly/python/pie-charts/
-* https://github.com/willwillis/python-api-homework/blob/master/portfolio_planner.ipynb
-* https://matplotlib.org/gallery/lines_bars_and_markers/vline_hline_demo.html
-* https://matplotlib.org/gallery/text_labels_and_annotations/usetex_baseline_test.html#sphx-glr-gallery-text-labels-and-annotations-usetex-* baseline-test-py
-* https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.quantile.html
-* https://matplotlib.org/api/_as_gen/matplotlib.axes.Axes.axhline.html
+> UC Bootcamp Gitlab Repository
+> https://guides.github.com/features/mastering-markdown/
+> https://plot.ly/python/pie-charts/
+> https://github.com/willwillis/python-api-homework/blob/master/portfolio_planner.ipynb
+> https://matplotlib.org/gallery/lines_bars_and_markers/vline_hline_demo.html
+> https://matplotlib.org/gallery/text_labels_and_annotations/usetex_baseline_test.html#sphx-glr-gallery-text-labels-and-annotations-usetex-* baseline-test-py
+> https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.quantile.html
+> https://matplotlib.org/api/_as_gen/matplotlib.axes.Axes.axhline.html
