@@ -90,9 +90,9 @@ Day 7560                 | 190.803836  | 96.425070 | 49.185350
 
 ![Figure 6](https://github.com/Ava33343/API-homework/blob/master/Answer_Code/Images/Fig_6.png)
 
-    * According to Figure 6, the earliest day of retirement could take place around 2,700 trading days. In other words, after the 11th year, provided that the inflation rate is 0. By that day, only 5% of the portfolio returns accumulates just enough to retire and provide withdrawal of 4% in the amount comparable to current annual income. It is shown as the point where the horizontal red line crosses the light blue curve representing 95th percentile of simulated portfolio returns.
+* According to Figure 6, the earliest day of retirement could take place around 2,700 trading days. In other words, after the 11th year, provided that the inflation rate is 0. By that day, only 5% of the portfolio returns accumulates just enough to retire and provide withdrawal of 4% in the amount comparable to current annual income. It is shown as the point where the horizontal red line crosses the light blue curve representing 95th percentile of simulated portfolio returns.
 
-    * Based on 2% inflation and similar rationale, a reasonable year of retirement is 17th year for over 50% of the simulated portfolio returns over the required amount for the 4% withdrawal to match projected annual income. Retiring after the 21st year would be ideal because by then there is 95% chance that the portfolio accumulates enough value for retirement.
+* Based on 2% inflation and similar rationale, a reasonable year of retirement is 17th year for over 50% of the simulated portfolio returns over the required amount for the 4% withdrawal to match projected annual income. Retiring after the 21st year would be ideal because by then there is 95% chance that the portfolio accumulates enough value for retirement.
     
 ### Early Retirement Challenge 
 #### Goal: Retire in the next five years
