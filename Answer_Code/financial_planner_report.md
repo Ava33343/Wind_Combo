@@ -52,8 +52,8 @@ Table 2. 10th, 50th and 90th Quantiles for $1 and $20,000 Initial Investment in 
 
 Initial Investment  | 10th Quantile  | 50th Quantile | 90th Quantile
 ------------------- | -------------- | --------------  -----------
-        $1              |   $58.27      |   $96.43      |   $162.94
-           $20,000          | $1,165,337,58 | $1,928,501.40 | $3,258,783.77
+Investment $1           |   $58.27      |   $96.43      |   $162.94
+Investment $20,000              | $1,165,337,58 | $1,928,501.40 | $3,258,783.77
 
 3. At the end of 30 years, there is a 90% chance that the 4% withdrawal of $46,613.50 from the retirement portfolio is greater than the projected annual income of $6,054.80. The annual projected income was calculated from the first monthly income stream based on 2% annual inflation rate.
 
@@ -72,13 +72,13 @@ Initial Investment  | 10th Quantile  | 50th Quantile | 90th Quantile
 
 Table 3. Daily Cumulative Returns - Median with Boundaries of 90% Confidence Interval on 60/40 Conservative Portfolio
 
-Day    | CI_90_Lower |  Median   | CI_90_Upper
-------  ------------- ----------- ------------
-7556   | 192.637704  | 96.021101 | 48.734163
-7557      | 193.685514  | 96.519774 | 48.708338
-7558         | 192.262019  | 96.769035 | 48.923027
-7559            | 191.639635  | 96.438293 | 49.166638
-7560               | 190.803836  | 96.425070 | 49.185350
+Day       | CI_90_Lower |  Median   | CI_90_Upper
+---------  ------------- ----------- ------------
+Day 7556     | 192.637704  | 96.021101 | 48.734163
+Day 7557        | 193.685514  | 96.519774 | 48.708338
+Day 7558           | 192.262019  | 96.769035 | 48.923027
+Day 7559              | 191.639635  | 96.438293 | 49.166638
+Day 7560                 | 190.803836  | 96.425070 | 49.185350
 
 7. Goals for Retirement Budgeting with Inflation:
 
@@ -115,13 +115,13 @@ After rerunning 500 monte-carlo simulations for cumulative daily returns on the 
 
 Table 4. Daily Cumulative Returns - Median with Boundaries of 90% Confidence Interval on 90/10 Aggressive Portfolio
 
-Day  |    CI_90_Lower  |       Median     |   CI_90_Upper
-----  ----------------- ------------------  -------------
-1256     | 1.698543          |  2.527966      | 3.923702
-1257        | 1.700851           |  2.531704    |  3.934448
-1258           | 1.704032           |  2.531314     | 3.933907
-1259              |1.702606            |  2.545247     | 3.909562
-1260                  |1.708613           |  2.559520     | 3.920164
+Day      |    CI_90_Lower  |       Median     |   CI_90_Upper
+---------  ----------------- ------------------  -------------
+Day 1256     | 1.698543          |  2.527966      | 3.923702
+Day 1257          | 1.700851           |  2.531704    |  3.934448
+Day 1258              | 1.704032           |  2.531314     | 3.933907
+Day 1259                  |1.702606            |  2.545247     | 3.909562
+Day 1260                        |1.708613           |  2.559520     | 3.920164
 
 The horizontal red and blue lines in Figure 10 describes how long it takes for the portfolio to double and triple the initial investment. Those happen when the horizontal lines cross the curved trajectories that trace the median, 5th quantile and 95th quantile of simulated daily cumulative returns over the next five years. 
 
