@@ -1,4 +1,6 @@
-# Financial Planner Report
+# Combo Winds Please
+
+### _Financial Planner Report_
 
 ## A retirement portfolio for Harold
 _**1. The stock market is in an upswing in the past year**_
