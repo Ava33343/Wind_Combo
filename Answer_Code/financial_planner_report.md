@@ -1,4 +1,4 @@
-# Combo Winds Please
+# Wind Combo
 
 ### _Financial Planner Report_
 
